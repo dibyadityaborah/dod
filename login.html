@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="ddc.jpg"type="image/x-icon">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(jpg.jpg);
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            font-family: sans-serif;
+            overflow: hidden;
+        }
+        .loginbox{
+            width: 420px;
+            height: 500px;
+            background-color: #000;
+            color: #ffffff;
+            top: 2%;
+            left: 35%;
+            position: absolute;
+            transform: translate(-50%,-50%)
+            box-sizing: border-box;
+        }
+        .loginbox h1{
+            padding-left: 25%;
+            padding-top: 60px;
+            font-weight: lighter;
+        }
+        .xcv{
+            width: 100px;
+            height: 100px;
+            margin-left: 35%;
+            top: -40px;
+            border-radius: 50%;
+            position: absolute;
+        }
+        .loginbox form{
+            margin-left: 75px;
+        }  
+        .loginbox form a{
+            text-decoration: none;
+            color: #ffffff;
+            line-height: 40px;
+            
+        } 
+        .loginbox form a:hover{
+            color: rgb(218, 100, 226);
+        }
+        .loginbox form p{
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+        }
+        .loginbox form input{
+           
+            margin-bottom: 20px;
+        }
+        .loginbox input[type="text"], input[type="password"]{
+            border: none;
+            border-bottom: 1px solid #ffffff;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            color: #ffffff;
+            font-size: 16px;
+        }
+        .vbn{
+            width: 196px;
+            background-color: #0087e0;
+            transition: 0.2s;
+        }
+        .vbn:hover{
+            background-color: #0400ff;
+        }
+        .loginbox input[type="submit"]{
+            border: none;
+            outline: none;
+            height: 40px;
+            font-size: 20px;
+            border-radius: 20px;
+        }
+        .vvb{
+            float: left;
+        }
+        @media only screen and (max-width:1957px) {
+    /* For tablets: */
+    .loginbox{
+        height: 600px;
+        width: 400px;
+    }
+    .loginbox h1{
+        font-size: 50px;
+    }
+    .loginbox p{
+        font-size: 30px;
+    }
+  }
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .loginbox{
+        left: 210px;
+        top: 65px;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    /* For mobile phones: */
+    .loginbox{
+        margin-left: 20px;
+        }
+    .vvb{
+        margin-top: -540px;
+        float: right;
+        margin-right: 20px;
+    }
+    
+  }
+  @media only screen and (max-width: 414px) {
+    /* For mobile phones: */
+    .loginbox{
+        margin-left: -202px;
+        
+
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    /* For mobile phones: */
+    .xcv{
+        width: 50px;
+        height: 50px;
+        left: 10%;
+    }
+    .loginbox h1{
+        font-size: 20px;
+        padding-top: 10px;
+        padding-left: 120px;
+    }
+    .loginbox p{
+        font-size: 10px;
+    }
+    .loginbox{
+        margin-left: -250px;
+    }
+   
+   
+  }
+  @media only screen and (max-width: 411px) {
+    /* For mobile phones: */
+    .loginbox{
+            width: 300px;
+            height: 650px;
+            background-color: #000;
+            color: #ffffff;
+            top: 10%;
+            left: 63%;
+            position: absolute;
+            transform: translate(-50%,-50%)
+            box-sizing: border-box;
+    }
+    @media only screen and (max-width: 650px) {
+    /* For mobile phones: */
+    
+  }
+   
+  }
+
+        </style>
+</head>
+<body>
+    <div class="loginbox">
+        <img src="png.png" class="xcv">
+        <h1>Login here</h1>
+        <form>
+            <p>Username</p>
+            <input type="text" name="" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="" placeholder="Enter password"><br>
+            <input type="submit" name="" value="login" class="vbn"><br>
+            <a href="#">Forgot your password?</a><br>
+            <a href="#">Dont have an acount?</a><br>
+            <a href="index.html" class="vvb">HOME</a>
+        </form>
+    </div>
+</body>
+</html>
